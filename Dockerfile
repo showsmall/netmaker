@@ -1,6 +1,6 @@
 #first stage - builder
 
-FROM golang:1.14-stretch as builder
+FROM golang:1.18-stretch as builder
 
 COPY . /app
 
